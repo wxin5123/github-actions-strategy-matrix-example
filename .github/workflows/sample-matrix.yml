@@ -1,5 +1,10 @@
 name: Sample Matrix Parallel
-on: push
+
+# on: push
+ 
+on:
+    workflow_dispatch:
+ 
 jobs:
   job:
     runs-on: ubuntu-latest
