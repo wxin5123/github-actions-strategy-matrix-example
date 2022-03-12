@@ -35,3 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls -al ~
+          cd runners
+          ls -al ~
+          
